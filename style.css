@@ -1,0 +1,27 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.keys{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    opacity: 0.8;
+    background-color: rgb(68, 66, 63);
+    margin: 10px;
+    color: white;
+}
